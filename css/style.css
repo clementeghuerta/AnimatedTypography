@@ -1,0 +1,57 @@
+body {
+	text-align: center;
+}
+#google {
+	font-family: 'Roboto', sans-serif;
+    font-size: 5.3em;
+    transition: 4s;
+}
+#google:hover{
+	font-family: 'Roboto', sans-serif;
+    font-size: 5.3em;
+    -ms-transform: rotateY(360deg); /* IE 9 */
+    -webkit-transform: rotateY(360deg); /* Chrome, Safari, Opera */
+    transform: rotateY(360deg); /* Standard syntax */
+
+}
+#facebook {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3.5em;
+	transition: 4s;
+	transform:scale(1.0,1.0);
+}
+#facebook:hover {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3.5em;
+	transform:scale(1.4,1.4);
+	color: #2e5a86; 
+}
+
+#apple{
+	font-family: 'Lato', sans-serif;
+	font-size: 6.0em;
+	position: relative;
+    transition: all 0.5s ease;
+}
+#apple:hover  {
+animation: color-me-in 15s;/* other keywords like "infinite alternate" can be useful here */
+
+}
+@keyframes color-me-in {
+
+  /* Adding a step in the middle */
+  0% {
+    color: #0099cc;
+  }
+  50% {
+    color: #ff6600;
+  }
+  100% {
+    color: #cc0000;
+  }
+}
+
+
+
+
+
